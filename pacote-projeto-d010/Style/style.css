@@ -33,6 +33,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 
 body {
@@ -56,7 +57,7 @@ header {
 header h1 {
     color: white;
     font-family: var(--fonte-padrao);
-    font-size: 4em;
+    font-size: 10vw;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
     font-weight: normal;
@@ -95,7 +96,7 @@ header > p {
 }
 
 main {
-    min-width: 300px;
+    min-width: 250px;
     max-width: 1000px;
     background-color: white;
     margin: auto;
@@ -174,6 +175,7 @@ main img {
 
 main img.pequena {
     max-width: 350px;
+    min-width: 250px;
     display: block;
     margin: auto;
 }
@@ -214,3 +216,7 @@ footer a {
     text-decoration: underline;
     color: var(--cor1);
 }
+
+
+
+
